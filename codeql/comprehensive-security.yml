@@ -3,4 +3,5 @@ name: Comprehensive CodeQL Security Configuration
 queries:
   - uses: security-extended
 packs:
-  - githubsecuritylab/codeql-${{ matrix.language }}-queries
+  javascript:
+    - githubsecuritylab/codeql-javascript-queries
